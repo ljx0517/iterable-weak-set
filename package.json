@@ -1,13 +1,14 @@
 {
   "name": "iterable-weak-set",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a iterable WeakSet",
   "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json",
+    "tsc": "tsc -d -p tsconfig.json && tsc -d -p tsconfig-esm.json",
     "build": "npm run tsc",
     "test": "mocha -r ts-node/register test/*.test.ts",
-    "test:coverage": "nyc npm run test"
+    "test:coverage": "nyc npm ru    n test"
   },
+  "types": "./src/index.d.ts",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "files": [
