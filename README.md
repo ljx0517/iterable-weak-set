@@ -1,5 +1,7 @@
 # iterable WeakSet implement
 
+full test coverage
+
 ##api
 ```
 const set = new IterableWeakSet();
